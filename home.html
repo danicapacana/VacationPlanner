@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Vacation Planner</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    
+    <body id="page-top">
+    	<div class="container">
+            <nav class="navbar-custom">
+                <ul>
+                    <a href="signup.html"><li>Sign Up </li></a>
+                    <a href="login.html"><li>Login </li></a>
+                    <a href="contact.html"><li>Contact Us </li></a>
+                    <a href="#attraction"><li> Tourist Spots </li></a>
+                    <a href="#destination"><li> Philippine Destination </li></a>
+                    <a href="#about"><li> About </li></a>
+                    <a href="#page-top" class="nav-left"><li style="font-size:18px;"> <img src="image/Pencil-icon.png" class="img"/> &nbspVacation <strong>Planner</strong> </li></a>
+                </ul>
+            </nav>
+
+            <section class="home">
+                <img src="image/layout2.jpg" class="img2" />
+            </section>
+
+            <section id="about" class="container about text-center">
+            
+                <h2>About Vacation Planner</h2>
+                    <p>Vacation Planner makes it easy for you to Plan your trip to Philippines in a matter of minutes. It gives user the idea of a high quality travel yet an affordable one and gives also the view of the most beautiful tourist spot in the Philippines. 
+                       Plan your trip now by checking out the best place where you can be. </p>
+                    <p> Check out <a href="#destination">Philippines</a> now!</p>
+            
+            </section>
+            
+            <section id="destination" class="container destination ">
+                <form action="" method="post">
+                    <h1 class="plan">Plan<br/>your<br/> trip</h1>
+                                    
+                    <div class="">
+                        <label>Destination</label><br/>
+                        <input type="text" name="Destination" class="form"/>
+                    </div><br/>
+
+                    <div class="">
+                        <label>Date </label><br/>
+                        <input type="date" name="Date" class="form" />
+                    </div><br/>
+
+                    <div class="">
+                        <label>Time</label><br/>
+                        <input type='time' name='Time' class="form"/>
+                    </div><br/>
+                                     
+                    <div class="">
+                        <label>Hotel to Stay-in:</label><br/>
+                        <input type='' name='Hotel' class="form"/>
+                    </div><br/>
+
+                    <div class="">
+                        <label>No. of person(s)</label><br/>
+                        <input type='' name='No. of Person/s' class="form"/>
+                    </div><br/>
+                               
+                    <button type="button" class="button button-default" id="#"> Save Plan</button>
+                </form>
+            </section>
+
+            <section id="#attraction" class="img3">
+                <div class="carousel-wrapper" style="height: 400px;">
+                    <span id="target-item-1"></span>
+                    <span id="target-item-2"></span>
+                    <span id="target-item-3"></span>
+                  
+                    <div class="carousel-item item-1">
+                        <img src="image/4.jpg" class="img3">
+                    
+                        <a class="arrow arrow-prev" href="#target-item-3"></a>
+                        <a class="arrow arrow-next" href="#target-item-2"></a>
+                    </div>
+                    
+                    <div class="carousel-item item-2 light">
+                        <img src="image/14.jpg" class="img3">
+                        
+                        <a class="arrow arrow-prev" href="#target-item-1"></a>
+                        <a class="arrow arrow-next" href="#target-item-3"></a>
+                    </div>
+                    
+                    <div class="carousel-item item-3">
+                        <img src="image/10.jpg" class="img3">
+                        
+                        <a class="arrow arrow-prev" href="#target-item-2"></a>
+                        <a class="arrow arrow-next" href="#target-item-1"></a>
+                    </div>
+                </div>
+            </section>
+
+
+            
+
+        </div>
+    </body>
+</html>
